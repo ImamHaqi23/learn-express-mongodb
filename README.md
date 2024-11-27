@@ -20,24 +20,27 @@ CRUD Product App adalah aplikasi sederhana untuk melakukan operasi **CRUD (Creat
 - **Method-Override** - Untuk menangani HTTP methods PUT dan DELETE di form HTML.
 
 ## 📂 Struktur Folder
-```bash 
-crud-products-app/
-│
-├── models/
-│   └── product.js           # Schema model untuk produk
-│
-├── views/                   # Folder untuk file EJS (template)
-│   └── products/            # Subfolder untuk halaman produk
-│       ├── create.ejs       # Halaman untuk menambah produk
-│       ├── edit.ejs         # Halaman untuk mengedit produk
-│       ├── index.ejs        # Halaman untuk daftar produk
-│       └── show.ejs         # Halaman detail produk
-│   
-│
-├── seed.js                  # File untuk memasukkan data awal (seed)
-├── index.js                 # File utama aplikasi (entry point)
-├── package.json             # Metadata dan dependensi proyek
-└── README.md                # Dokumentasi proyek
+
+- **
+   ```bash
+   crud-products-app/
+   │
+   ├── models/
+   │   └── product.js           # Schema model untuk produk
+   │
+   ├── views/                   # Folder untuk file EJS (template)
+   │   └── products/            # Subfolder untuk halaman produk
+   │       ├── create.ejs       # Halaman untuk menambah produk
+   │       ├── edit.ejs         # Halaman untuk mengedit produk
+   │       ├── index.ejs        # Halaman untuk daftar produk
+   │       └── show.ejs         # Halaman detail produk
+   │   
+   │
+   ├── seed.js                  # File untuk memasukkan data awal (seed)
+   ├── index.js                 # File utama aplikasi (entry point)
+   ├── package.json             # Metadata dan dependensi proyek
+   └── README.md                # Dokumentasi proyek
+
 
 ## ⚙️ Instalasi dan Penggunaan
 
@@ -85,3 +88,6 @@ crud-products-app/
 
 4. Edit Produk (views/products/edit.ejs)
    Formulir untuk memperbarui informasi produk.
+
+
+
