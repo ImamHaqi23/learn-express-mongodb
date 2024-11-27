@@ -20,7 +20,7 @@ CRUD Product App adalah aplikasi sederhana untuk melakukan operasi **CRUD (Creat
 - **Method-Override** - Untuk menangani HTTP methods PUT dan DELETE di form HTML.
 
 ## 📂 Struktur Folder
-
+```bash 
 crud-products-app/
 │
 ├── models/
